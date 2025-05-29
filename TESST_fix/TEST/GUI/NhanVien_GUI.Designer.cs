@@ -35,17 +35,17 @@
             this.label_GioiTinh = new System.Windows.Forms.Label();
             this.dateTimePicker_ChonNamSinh = new System.Windows.Forms.DateTimePicker();
             this.textBox_NhapHoTen = new System.Windows.Forms.TextBox();
-            this.button_TimKiem = new System.Windows.Forms.Button();
-            this.button_Sua = new System.Windows.Forms.Button();
-            this.button_Xoa = new System.Windows.Forms.Button();
-            this.button_Them = new System.Windows.Forms.Button();
             this.label_NgaySinh = new System.Windows.Forms.Label();
             this.groupBox_ChucNangChinh = new System.Windows.Forms.GroupBox();
-            this.button_Thoat = new System.Windows.Forms.Button();
             this.label_HoTen = new System.Windows.Forms.Label();
             this.groupBox_ThongTinChung = new System.Windows.Forms.GroupBox();
             this.dataGridView_ThongTin = new System.Windows.Forms.DataGridView();
             this.groupBox_NhapThongTin = new System.Windows.Forms.GroupBox();
+            this.button_Thoat = new System.Windows.Forms.Button();
+            this.button_TimKiem = new System.Windows.Forms.Button();
+            this.button_Sua = new System.Windows.Forms.Button();
+            this.button_Xoa = new System.Windows.Forms.Button();
+            this.button_Them = new System.Windows.Forms.Button();
             this.groupBox_ChucNangChinh.SuspendLayout();
             this.groupBox_ThongTinChung.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_ThongTin)).BeginInit();
@@ -120,50 +120,6 @@
             this.textBox_NhapHoTen.Size = new System.Drawing.Size(257, 26);
             this.textBox_NhapHoTen.TabIndex = 2;
             // 
-            // button_TimKiem
-            // 
-            this.button_TimKiem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_TimKiem.Location = new System.Drawing.Point(501, 28);
-            this.button_TimKiem.Name = "button_TimKiem";
-            this.button_TimKiem.Size = new System.Drawing.Size(92, 38);
-            this.button_TimKiem.TabIndex = 3;
-            this.button_TimKiem.Text = "Tìm kiếm";
-            this.button_TimKiem.UseVisualStyleBackColor = true;
-            this.button_TimKiem.Click += new System.EventHandler(this.button_TimKiem_Click);
-            // 
-            // button_Sua
-            // 
-            this.button_Sua.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_Sua.Location = new System.Drawing.Point(350, 28);
-            this.button_Sua.Name = "button_Sua";
-            this.button_Sua.Size = new System.Drawing.Size(92, 38);
-            this.button_Sua.TabIndex = 2;
-            this.button_Sua.Text = "Sửa";
-            this.button_Sua.UseVisualStyleBackColor = true;
-            this.button_Sua.Click += new System.EventHandler(this.button_Sua_Click);
-            // 
-            // button_Xoa
-            // 
-            this.button_Xoa.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_Xoa.Location = new System.Drawing.Point(194, 28);
-            this.button_Xoa.Name = "button_Xoa";
-            this.button_Xoa.Size = new System.Drawing.Size(92, 38);
-            this.button_Xoa.TabIndex = 1;
-            this.button_Xoa.Text = "Xóa";
-            this.button_Xoa.UseVisualStyleBackColor = true;
-            this.button_Xoa.Click += new System.EventHandler(this.button_Xoa_Click);
-            // 
-            // button_Them
-            // 
-            this.button_Them.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_Them.Location = new System.Drawing.Point(40, 28);
-            this.button_Them.Name = "button_Them";
-            this.button_Them.Size = new System.Drawing.Size(92, 38);
-            this.button_Them.TabIndex = 0;
-            this.button_Them.Text = "Thêm";
-            this.button_Them.UseVisualStyleBackColor = true;
-            this.button_Them.Click += new System.EventHandler(this.button_Them_Click);
-            // 
             // label_NgaySinh
             // 
             this.label_NgaySinh.AutoSize = true;
@@ -188,17 +144,6 @@
             this.groupBox_ChucNangChinh.TabIndex = 4;
             this.groupBox_ChucNangChinh.TabStop = false;
             this.groupBox_ChucNangChinh.Text = "Chức năng chính";
-            // 
-            // button_Thoat
-            // 
-            this.button_Thoat.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_Thoat.Location = new System.Drawing.Point(649, 28);
-            this.button_Thoat.Name = "button_Thoat";
-            this.button_Thoat.Size = new System.Drawing.Size(92, 38);
-            this.button_Thoat.TabIndex = 4;
-            this.button_Thoat.Text = "Thoát";
-            this.button_Thoat.UseVisualStyleBackColor = true;
-            this.button_Thoat.Click += new System.EventHandler(this.button_Thoat_Click);
             // 
             // label_HoTen
             // 
@@ -249,6 +194,76 @@
             this.groupBox_NhapThongTin.TabIndex = 3;
             this.groupBox_NhapThongTin.TabStop = false;
             this.groupBox_NhapThongTin.Text = "Nhập thông tin";
+            // 
+            // button_Thoat
+            // 
+            this.button_Thoat.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Thoat.Image = global::TEST.Properties.Resources.x;
+            this.button_Thoat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_Thoat.Location = new System.Drawing.Point(623, 28);
+            this.button_Thoat.Name = "button_Thoat";
+            this.button_Thoat.Size = new System.Drawing.Size(75, 38);
+            this.button_Thoat.TabIndex = 4;
+            this.button_Thoat.Text = "Thoát";
+            this.button_Thoat.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button_Thoat.UseVisualStyleBackColor = true;
+            this.button_Thoat.Click += new System.EventHandler(this.button_Thoat_Click);
+            // 
+            // button_TimKiem
+            // 
+            this.button_TimKiem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_TimKiem.Image = global::TEST.Properties.Resources.search_alt;
+            this.button_TimKiem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_TimKiem.Location = new System.Drawing.Point(469, 28);
+            this.button_TimKiem.Name = "button_TimKiem";
+            this.button_TimKiem.Size = new System.Drawing.Size(92, 38);
+            this.button_TimKiem.TabIndex = 3;
+            this.button_TimKiem.Text = "Tìm kiếm";
+            this.button_TimKiem.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button_TimKiem.UseVisualStyleBackColor = true;
+            this.button_TimKiem.Click += new System.EventHandler(this.button_TimKiem_Click);
+            // 
+            // button_Sua
+            // 
+            this.button_Sua.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Sua.Image = global::TEST.Properties.Resources.edit;
+            this.button_Sua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_Sua.Location = new System.Drawing.Point(338, 28);
+            this.button_Sua.Name = "button_Sua";
+            this.button_Sua.Size = new System.Drawing.Size(68, 38);
+            this.button_Sua.TabIndex = 2;
+            this.button_Sua.Text = "Sửa";
+            this.button_Sua.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button_Sua.UseVisualStyleBackColor = true;
+            this.button_Sua.Click += new System.EventHandler(this.button_Sua_Click);
+            // 
+            // button_Xoa
+            // 
+            this.button_Xoa.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Xoa.Image = global::TEST.Properties.Resources.trash;
+            this.button_Xoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_Xoa.Location = new System.Drawing.Point(206, 28);
+            this.button_Xoa.Name = "button_Xoa";
+            this.button_Xoa.Size = new System.Drawing.Size(68, 38);
+            this.button_Xoa.TabIndex = 1;
+            this.button_Xoa.Text = "Xóa";
+            this.button_Xoa.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button_Xoa.UseVisualStyleBackColor = true;
+            this.button_Xoa.Click += new System.EventHandler(this.button_Xoa_Click);
+            // 
+            // button_Them
+            // 
+            this.button_Them.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Them.Image = global::TEST.Properties.Resources.plus;
+            this.button_Them.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_Them.Location = new System.Drawing.Point(69, 28);
+            this.button_Them.Name = "button_Them";
+            this.button_Them.Size = new System.Drawing.Size(75, 38);
+            this.button_Them.TabIndex = 0;
+            this.button_Them.Text = "Thêm";
+            this.button_Them.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button_Them.UseVisualStyleBackColor = true;
+            this.button_Them.Click += new System.EventHandler(this.button_Them_Click);
             // 
             // NhanVien_GUI
             // 

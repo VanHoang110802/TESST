@@ -167,22 +167,28 @@
             // button_QuayLai
             // 
             this.button_QuayLai.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_QuayLai.Location = new System.Drawing.Point(501, 28);
+            this.button_QuayLai.Image = global::TEST.Properties.Resources.arrow_from_right_stroke;
+            this.button_QuayLai.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_QuayLai.Location = new System.Drawing.Point(469, 28);
             this.button_QuayLai.Name = "button_QuayLai";
             this.button_QuayLai.Size = new System.Drawing.Size(92, 38);
             this.button_QuayLai.TabIndex = 3;
             this.button_QuayLai.Text = "Quay lại";
+            this.button_QuayLai.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button_QuayLai.UseVisualStyleBackColor = true;
             this.button_QuayLai.Click += new System.EventHandler(this.button_QuayLai_Click);
             // 
             // button_SuaThongTin
             // 
             this.button_SuaThongTin.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_SuaThongTin.Image = global::TEST.Properties.Resources.edit;
+            this.button_SuaThongTin.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button_SuaThongTin.Location = new System.Drawing.Point(194, 28);
             this.button_SuaThongTin.Name = "button_SuaThongTin";
-            this.button_SuaThongTin.Size = new System.Drawing.Size(92, 38);
+            this.button_SuaThongTin.Size = new System.Drawing.Size(75, 38);
             this.button_SuaThongTin.TabIndex = 1;
             this.button_SuaThongTin.Text = "Sửa";
+            this.button_SuaThongTin.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button_SuaThongTin.UseVisualStyleBackColor = true;
             this.button_SuaThongTin.Click += new System.EventHandler(this.button_SuaThongTin_Click);
             // 

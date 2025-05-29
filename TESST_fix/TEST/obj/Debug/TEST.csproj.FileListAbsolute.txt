@@ -11,3 +11,16 @@ C:\Users\CYBER GAMING™\Downloads\TESST-master\TEST\obj\Debug\TEST.exe
 C:\Users\CYBER GAMING™\Downloads\TESST-master\TEST\obj\Debug\TEST.pdb
 C:\Users\CYBER GAMING™\Downloads\TESST-master\TEST\obj\Debug\TEST.exe.config
 C:\Users\CYBER GAMING™\Downloads\TESST-master\TEST\obj\Debug\TEST.GUI.Sua_GUI.resources
+C:\Users\CYBER GAMING™\Downloads\TESST_fix\TEST\bin\Debug\TEST.exe.config
+C:\Users\CYBER GAMING™\Downloads\TESST_fix\TEST\bin\Debug\TEST.exe
+C:\Users\CYBER GAMING™\Downloads\TESST_fix\TEST\bin\Debug\TEST.pdb
+C:\Users\CYBER GAMING™\Downloads\TESST_fix\TEST\obj\Debug\TEST.csproj.AssemblyReference.cache
+C:\Users\CYBER GAMING™\Downloads\TESST_fix\TEST\obj\Debug\TEST.exe.config
+C:\Users\CYBER GAMING™\Downloads\TESST_fix\TEST\obj\Debug\TEST.GUI.NhanVien_GUI.resources
+C:\Users\CYBER GAMING™\Downloads\TESST_fix\TEST\obj\Debug\TEST.GUI.Sua_GUI.resources
+C:\Users\CYBER GAMING™\Downloads\TESST_fix\TEST\obj\Debug\TEST.GUI.TimKiem_GUI.resources
+C:\Users\CYBER GAMING™\Downloads\TESST_fix\TEST\obj\Debug\TEST.Properties.Resources.resources
+C:\Users\CYBER GAMING™\Downloads\TESST_fix\TEST\obj\Debug\TEST.csproj.GenerateResource.cache
+C:\Users\CYBER GAMING™\Downloads\TESST_fix\TEST\obj\Debug\TEST.csproj.CoreCompileInputs.cache
+C:\Users\CYBER GAMING™\Downloads\TESST_fix\TEST\obj\Debug\TEST.exe
+C:\Users\CYBER GAMING™\Downloads\TESST_fix\TEST\obj\Debug\TEST.pdb
